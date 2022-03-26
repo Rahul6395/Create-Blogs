@@ -1,0 +1,142 @@
+.mainUserContainer {
+  width: 100%;
+}
+
+.MainUserChield {
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(252, 252, 252);
+  border: 1px solid rgb(134, 125, 125);
+  margin-top: 15px;
+}
+.MainuserProfile {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.MainuserProfileImg {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+}
+.MainuserProfilePic {
+  width: 100%;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.MainuserProfileName {
+  width: 20%;
+  margin-left: 10px;
+}
+a {
+  color: black;
+}
+.MainuserMonths {
+  color: rgb(109, 119, 129);
+}
+
+.MainuserProfliePostCon {
+  width: 100%;
+  height: 400px;
+}
+.MainuserProfilePostImg {
+  width: 100%;
+  height: 400px;
+}
+.mainUserPostContentCon {
+  width: 100%;
+}
+.mainUserPostContent {
+  width: 94%;
+  margin: 0 auto;
+}
+.mainUserPostContentHeading {
+  font-size: 23px;
+  margin: 10px 0;
+}
+.mainUserPostContentPgh {
+  width: 100%;
+  height: 120px;
+  overflow-x: scroll;
+  background-color: rgb(238, 235, 235);
+  font-size: 16px;
+  margin-bottom: 16px;
+  /* display:-webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical; */
+}
+
+.mainasideCardBottomSec {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  border-top: 1px solid rgba(179, 176, 176, 0.445);
+}
+.mainuserCardName {
+  color: rgb(90, 87, 87);
+  font-size: 16px;
+  margin: 8px 0 12px 0;
+  display: flex;
+  cursor: default;
+}
+.mainuserCardConcept {
+  color: tomato;
+  margin: 8px 0 12px 0;
+}
+
+@media (max-width: 800px) {
+  .MainUserChield {
+    width: 80%;
+  }
+  .MainuserProfliePostCon {
+    width: 100%;
+    height: 220px;
+  }
+  .MainuserProfilePostImg {
+    width: 100%;
+    height: 220px;
+  }
+}
+
+@media (max-width: 500px) {
+  .MainUserChield {
+    width: 70%;
+  }
+  .MainuserProfliePostCon {
+    width: 100%;
+    height: 160px;
+  }
+  .MainuserProfilePostImg {
+    width: 100%;
+    height: 160px;
+  }
+}
+
+@media (max-width: 350px) {
+  .MainUserChield {
+    width: 65%;
+  }
+  .MainuserProfliePostCon {
+    width: 100%;
+    height: 130px;
+  }
+  .MainuserProfilePostImg {
+    width: 100%;
+    height: 130px;
+  }
+  .mainUserPostContentHeading {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .mainUserPostContentPgh {
+    width: 100%;
+    height: 80px;
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+}

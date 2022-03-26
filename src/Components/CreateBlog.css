@@ -1,0 +1,74 @@
+.cBlogCon {
+  width: 100%;
+}
+.cBlogChield {
+  width: 70%;
+  margin: auto;
+}
+.cBlogHeading {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 34px;
+}
+.fieldsBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.cBlogtitle:focus {
+  border: 1px solid gray;
+}
+.cBlogtitle {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 15px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.cBlogBody:focus {
+  outline: none;
+}
+.cBlogBody {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 15px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: rgb(245, 245, 240);
+}
+.fileLabel {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.cBlogImg {
+  width: 100%;
+  height: 50%;
+  padding: 0px 0px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+input[type="file"] {
+  width: 30%;
+  display: block;
+  border-bottom: 1px solid grey;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.fieldSubBtn {
+  width: 20%;
+  background-color: rgb(44, 31, 233);
+  padding: 10px 2px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin: auto;
+}
